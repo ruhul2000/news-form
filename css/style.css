@@ -1,0 +1,115 @@
+*{margin: 0;
+  padding: 0;
+}
+
+.menu-bar{
+	text-align: center;
+	background: #00e6e6;
+	height: 80px;
+	line-height: 80px;
+}
+
+.menu-bar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu-bar ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	    margin: 15px;
+}
+.icon{
+	text-align: center;
+	   margin: 10px;
+
+
+}
+.icon ul li{
+list-style: none;
+display: inline-block;
+}
+.icon ul li a i{
+	height: 40px;
+	width: 40px;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height:36px;
+	font-size: 20px;
+	border-radius: 50%;
+	border: 1px solid red;
+	transition: .5s ease-in-out;
+}
+.icon ul li a i:hover{
+background: transparent;
+color: red;
+transition: .5s ease-in-out;
+transform: scale(0.7);
+}
+.box {
+	width: 30%;
+	margin: 60px auto;
+	background: rgba(255,255,255,0.7);
+    text-align: center;
+    padding: 40px px;
+    border-radius: 10px;
+ }
+ .box h1{
+ 	text-transform: uppercase;
+ 	font-size: 28px;
+ 	letter-spacing: 3px;
+ }
+ .box form{
+ 	margin-top: 20px;
+ }
+ .user-mail{
+ 	width: 210px;
+ 	padding: 10px;
+}
+.submit-btn{
+	padding: 10px;
+	border: 1px solid red;
+	background: red;
+	color: white;
+	cursor: pointer;
+}
+.user-mail:focus{
+	outline: none;
+}
+.form-box{
+	width: 40%;
+	margin: 60px auto;
+	background:rgb(39 218 168 / 70%);
+	border-radius: 7px;
+	padding: 40px 60px;
+	
+}
+.form-box{
+	text-align: center;
+}
+form .button {
+ width: 80%;
+ padding: 10px;
+ margin: 10px auto;
+ display: block;
+
+}
+.checkbox-field{
+	margin-left: 38px;
+}
+.button{
+	margin-top: 30px;
+	background: transparent;
+	border: none;
+	color: black;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background: white;
+	cursor: pointer;
+}
+.form-box p{
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 20px;
+    }
